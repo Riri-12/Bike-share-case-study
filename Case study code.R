@@ -225,7 +225,7 @@ head(all_rides_clean)
    labs(title="Number of Rides by Month", x = "Month", y = "Number of Rides") + 
    theme(axis.text.x = element_text(angle = 60, hjust = 1))
  
- counts <- aggregate(all_rides_clean$ride_length ~ all_rides_clean$member_casual + all_rides_clean$day_of_week, FUN = mean)
+
  
  
  
